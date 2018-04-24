@@ -1,0 +1,49 @@
+.site-container {
+  width: 100%;
+  max-width: 600px;
+  background: #ccc;
+  margin: 0 auto;
+}
+
+#page {
+  background: #ebebeb;
+  height: 2000px;
+}
+
+#content { 
+  float: left;
+  background: #fff;
+}
+
+#sidebar nav {
+  display: block;
+  background: orange;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#menu {
+  padding: 0;
+  margin: 0; 
+}
+
+#menu li {
+  margin: 0;
+  padding: 0; 
+  list-style: none;
+}
+/* Class for when element is above threshold */
+.pin-top {
+  position: relative;
+}
+
+/* Class for when element is below threshold */
+.pin-bottom {
+  position: relative;
+}
+
+/*  Class for when element is pinned */
+.pinned {
+  position: fixed !important;
+}
